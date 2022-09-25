@@ -1,0 +1,75 @@
+@import "./css/quizQuestion.css";
+@import "./css/results.css";
+@import "./css/rules.css";
+@import "./css/login.css";
+:root {
+  --ligt-gray: #e5e7eb;
+  --white: white;
+}
+.App {
+  text-align: center;
+}
+.nav {
+  background-color: var(--primary);
+  padding: 1.25rem 0.5rem;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+}
+.btn-nav {
+  background-color: white;
+  color: black;
+}
+.colorWhite {
+  color: white;
+}
+.quiz-card-section-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  row-gap: 1.5rem;
+}
+.quiz-card-container {
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid var(--ligt-gray);
+  border-radius: 0.25rem;
+  width: 320px;
+  height: auto;
+}
+.quiz-content-container {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  row-gap: 0.5rem;
+}
+.quiz-img {
+  width: 20rem;
+  height: 11.25rem;
+}
+.footer-quiz {
+  position: fixed;
+  bottom: 0px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: var(--white);
+  padding: 1rem 0;
+  row-gap: 0.75rem;
+}
+.footer-quiz p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer-icon-quiz-container {
+  display: flex;
+  column-gap: 1rem;
+}
